@@ -12,7 +12,7 @@ class Config(object):
 
 
     # Get from my.telegram.org (or @UseTGXBot)
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = os.environ.get("API_HASH", "9415a61fedcc0f00f33667ca46e577a3")
     
     
     # Database URL from https://cloud.mongodb.com/
