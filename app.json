@@ -18,23 +18,23 @@
         },
         "TG_BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
-            "value": ""
+            "value": "1799663548:AAHewYGoMAY2wnvWEAUsFvmoDrkcU3GLe7g"
         },
         "API_HASH": {
             "description": "Your API Hash from my.telegram.org or @UseTGXBot",
-            "value": ""
+            "value": "9415a61fedcc0f00f33667ca46e577a3"
         },
         "API_ID": {
             "description": "Your APP ID from my.telegram.org or @UseTGXBot",
-            "value": ""
+            "value": "2980496"
         },
         "AUTH_USERS": {
             "description": "ID of users that can use the bot commands",
-            "value": ""
+            "value": "1086432320"
         },
         "DATABASE_URI": {
             "description": "Database URL from https://cloud.mongodb.com/",
-            "value": ""
+            "value": "mongodb+srv://deekshiking:deekshiking@cluster0.jpplz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
         },
         "DATABASE_NAME": {
             "description": "Your database name from mongoDB. ( Default will 'Cluster0' )",
