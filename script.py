@@ -3,7 +3,9 @@ class Script(object):
     START_MSG = """<b>Hy {},
 
 🛡️🏅 AM ADVANCED UNLIMITED FILTER BOT.🏅🛡️
-MADE BY THIS KING :- 👑@Deeks_04_8👑:)
+MADE BY THIS KING :- 👑@Deeks_04_8👑
+
+:)
 
 See <i>/help</i> for commands and more details.</b>
 """
