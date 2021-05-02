@@ -1,65 +1,79 @@
 class Script(object):
 
-    START_MSG = """<b>Hy {},
+    START_MSG = """<b>😊 ʜᴇʟʟᴏ  {},
 
-🛡️🏅 AM ADVANCED UNLIMITED FILTER BOT.🏅🛡️
-MADE BY THIS KING :- 👑@Deeks_04_8👑
+ɪ ᴀᴍ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ғɪʟᴛᴇʀ ʙᴏᴛ ғᴏʀ
 
-:)
+=>> @UM_Requests .🛡️👉ᴊᴏɪɴ
 
-See <i>/help</i> for commands and more details.</b>
+ɪ ᴄᴀɴ ᴄᴀɴ ғɪʟᴛᴇʀ ᴛᴇxᴛ ᴀs ᴘᴇʀ ᴀᴅᴍɪɴ's ᴡɪsʜ.
+
+⚜️ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ 👉 @Deeks_04_8.
+
+⚔️ © @UNI_MOVIES_BOX 🏅
+
 """
 
 
     HELP_MSG = """
-<i>Add me as admin in your group and start filtering :)</i>
+🔰 𝐁𝐚𝐬𝐢𝐜 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬
+
+/start - ᴄʜᴇᴄᴋ ɪғ ɪ ᴀᴍ ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ
+
+/help - ʜᴇʟᴘs ʏᴏᴜ, ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ
+
+/about - ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍʏ ᴘᴇʀsᴏɴᴀʟ ɪɴғᴏʀᴍᴀᴛɪᴏɴ 
+
+🔰 𝐅𝐢𝐥𝐭𝐞𝐫 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬
+
+/add name reply - ᴀᴅᴅ ғɪʟᴛᴇʀ ғᴏʀ sᴘᴇᴄɪғɪᴄ ɴᴀᴍᴇs
+
+/del name - ʀᴇᴍᴏᴠᴇ ᴛʜᴇ sᴘᴇᴄɪғɪᴇᴅ ғɪʟᴛᴇʀ ɴᴀᴍᴇ
+
+/delall - ʀᴇᴍᴏᴠᴇ ᴇɴᴛɪʀᴇ ғɪʟᴛᴇʀs (ɢʀᴏᴜᴘ ᴏᴡɴᴇʀ ᴏɴʟʏ!)
+
+/viewfilters - sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀʟʟ ғɪʟᴛᴇʀs
 
 
-<b>Basic Commands;</b>
+🔰 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬
 
-/start - Check if I'm alive!
-/help - Command help
-/about - Something about me!
+/connect groupid - ᴛᴏ ᴄᴏɴɴᴇᴄᴛ ᴛʜᴇ ɢʀᴏᴜᴘ. ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ sɪᴍᴘʟʏ ᴜsᴇ,
+/connect ɪɴ ɢʀᴏᴜᴘs.
 
-
-<b>Filter Commands;</b>
-
-<code>/add name reply</code>  -  Add filter for name
-
-<code>/del name</code>  -  Delete filter
-
-<code>/delall</code>  -  Delete entire filters (Group Owner Only!)
-
-<code>/viewfilters</code>  -  List all filters in chat
+/connections - ᴛᴏ ᴍᴀɴᴀɢᴇ ᴛʜᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴ ᴏғ ᴄᴏɴɴᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘs.
 
 
-<b>Connection Commands;</b>
+🔰 𝐌𝐢𝐬𝐜
 
-<code>/connect groupid</code>  -  Connect your group to my PM. You can also simply use,
-<code>/connect</code> in groups.
+/status - sʜᴏᴡs ᴄᴜʀʀᴇɴᴛ sᴛᴀᴛᴜs ᴏғ ʏᴏᴜʀ ʙᴏᴛ (ᴀᴜᴛʜ ᴜsᴇʀ ᴏɴʟʏ)
 
-<code>/connections</code>  -  Manage your connections.
+/id - sʜᴏᴡs ᴛʜᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴏғ ᴛʜᴇ ɪᴅ
 
-
-<b>Extras;</b>
-
-/status  -  Shows current status of your bot (Auth User Only)
-
-/id  -  Shows ID information
-
-<code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
+/info userid - sʜᴏᴡs ᴜsᴇʀ ɪɴғᴏʀᴍᴀᴛɪᴏɴ. ᴜsᴇ /info ᴀs ʀᴇᴘʟʏ ᴛᴏ sᴏᴍᴇ ᴍᴇssᴀɢᴇ ғᴏʀ ᴛʜᴇɪʀ ᴅᴇᴛᴀɪʟs!
 
 
-<b>© @UNI_MOVIES_BOX // @Deeks_04_8</b>
-"""
+  🛡️ © @UNI_MOVIES_BOX |  @Deeks_04_8 🔰 """
 
 
-    ABOUT_MSG = """⭕️<b>My Name : UMR GROUP BOTS</b>
 
-⭕️<b>Creater :</b> @Deeks_04_8
 
-⭕️<b>Language :</b> <code>Python3</code>
 
-⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
 
+    ABOUT_MSG = """📕 𝐀𝐛𝐨𝐮𝐭 𝐌𝐞 ,
+
+○ ᴍʏ ɴᴀᴍᴇ :  ᴀ sᴀᴍᴘʟᴇ ᴍᴏᴠɪᴇ ᴅᴏɴᴇʀ ʙᴏᴛ
+
+○ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 
+
+○ ғʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏʀᴏɢʀᴀᴍ 
+
+○ sᴇʀᴠᴇʀ : ʜᴇʀᴏᴋᴜ 
+
+○ ᴠᴇʀsɪᴏɴ : 5.0.0
+
+○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : sᴏᴏɴ ᴀᴠᴀɪʟᴀʙʟᴇ 
+
+○ ᴄʀᴇᴀᴛᴏʀ : @Deeks_04_8
+
+ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ 02-5-2021 ɪɴᴅɪᴀɴ ᴛɪᴍᴇ 12:00 ᴀᴍ
 """
