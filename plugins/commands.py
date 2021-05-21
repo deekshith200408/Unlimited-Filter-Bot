@@ -215,10 +215,15 @@ async def start(client, message):
         text=Script.START_MSG.format(message.from_user.mention),
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
-                ]
+            [[InlineKeyboardButton("⚡𝘾𝙍𝙀𝘼𝙏𝙀𝙍/𝙁𝙐𝙉𝘿𝙀𝙍 🤓", url="https://t.me/Deeks_04_8")],
+                    [
+                        InlineKeyboardButton("💡 𝙷𝙴𝙻𝙿", callback_data="help_data"),
+                        InlineKeyboardButton("🤹 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴", callback_data="about_data"),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            "🎖️ 𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐀𝐋𝐋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋𝐒 🎖️", url="https://t.me/UNI_MOVIES_BOX")
+                    ]
             ]
         ),
         reply_to_message_id=message.message_id
