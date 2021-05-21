@@ -100,11 +100,11 @@ async def showinfo(client, message):
         user_name = "none"
 
     await message.reply_text(
-        f"<b>Name</b> : {name}\n\n"
-        f"<b>User ID</b> : <code>{id}</code>\n\n"
-        f"<b>Username</b> : {user_name}\n\n"
-        f"<b>Permanant USER link</b> : <a href='tg://user?id={id}'>Click here!</a>\n\n"
-        f"<b>DC ID</b> : {dcid}\n\n",
+        f"<b>⚡𝙽𝙰𝙼𝙴</b> : {name}\n\n"
+        f"<b>⚡𝚄𝚂𝙴𝚁 𝙸𝙳</b> : <code>{id}</code>\n\n"
+        f"<b>⚡𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴</b> : {user_name}\n\n"
+        f"<b>⚡𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃 𝙻𝙸𝙽𝙺</b> : <a href='tg://user?id={id}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ!</a>\n\n"
+        f"<b>⚡𝙳𝙲 𝙸𝙳</b> : {dcid}\n\n",
         quote=True,
         parse_mode="html"
     )
@@ -162,16 +162,16 @@ async def bot_status(client,message):
 
                 quota_details = f"""
 
-**Heroku Account Status**
+**🤯Heroku Account Status🤔**
 
-> __You have **{total} hours** of free dyno quota available each month.__
+🔰 You have **{total} hours** of free dyno quota available each month.
 
-> __Dyno hours used this month__ ;
-        - **{used} hours**  ( {usedperc}% )
+🔰 Dyno hours used this month__ ;
+      🔘 **{usd} hours**  ( {usedperc}% )
 
-> __Dyno hours remaining this month__ ;
-        - **{hours} hours**  ( {leftperc}% )
-        - **Approximately {days} days!**
+🔰⚡ Dyno hours remaining this month__ ;
+       🔘 **{hours} hours**  ( {leftperc}% )
+       🔘 **Approximately {days} days!**
 
 
 """
@@ -198,10 +198,10 @@ async def bot_status(client,message):
         disk = ""
 
     await message.reply_text(
-        "**Current status of your bot!**\n\n"
-        f"> __**{filters}** filters across **{chats}** chats__\n\n"
+        "**🔰𝐂𝐔𝐑𝐄𝐂𝐓 𝐒𝐓𝐀𝐓𝐔𝐒 𝐎𝐅 𝐔𝐑𝐒 𝐁𝐎𝐓🔰**\n\n"
+        f"> 📂𝚃𝙾𝚃𝙻𝙴 **{filters}** 𝙵𝙸𝙻𝚃𝙴𝚁 𝙰𝙲𝚁𝙾𝚂𝙴 **{chats}** 𝙲𝙷𝙰𝚃𝚂\n\n"
         f"{userstats}"
-        f"> __BOT Uptime__ : **{uptime}**\n\n"
+        f"> ⚡𝐁𝐎𝐓'𝐒 𝐔𝐏𝐓𝐈𝐌𝐄: **{uptime}**\n\n"
         f"{quota_details}"
         f"{disk}",
         quote=True,
@@ -243,12 +243,12 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🛡️ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs", url="https://t.me/UNI_MOVIES_BOX"),
-                    InlineKeyboardButton("🤓ᴀʙᴏᴜᴛᴇ ᴍᴇ", callback_data="about_data")
+                    InlineKeyboardButton("🛡️ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs", url="https://t.me/UNI_MOVIES_BOX")],
+                 [   InlineKeyboardButton("🤓𝙰𝙱𝙾𝚄𝚃 𝙼𝙴", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("📽️sᴜʙ ᴄʜᴀɴɴᴇʟ", url="https://t.me/joinchat/cfs6r6VwHfo2NDk1"),
-                    InlineKeyboardButton("🏅ɢʀᴏᴜᴘ", url="https://t.me/UM_Requests")
+                    InlineKeyboardButton("📽️𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/joinchat/cfs6r6VwHfo2NDk1"),
+                    InlineKeyboardButton("🏅𝙹𝙾𝙸𝙽 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/UM_Requests")
                 ]
             ]
         ),
@@ -265,13 +265,13 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "👑ғᴜɴᴅᴇʀ", url="https://t.me/Deeks_04_8")
+                        "👑𝙵𝚄𝙽𝙳𝙴𝚁/𝙲𝚁𝙴𝙰𝚃𝙴𝚁", url="https://t.me/Deeks_04_8")
                         
 
                 ],
                 [
-                    InlineKeyboardButton("⏪BACK", callback_data="help_data"),
-                    InlineKeyboardButton("📴CLOSE", callback_data="close_data"),
+                    InlineKeyboardButton("⏪𝙶𝙾 𝙱𝙰𝙲𝙺", callback_data="help_data"),
+                    InlineKeyboardButton("📴 𝙲𝙻𝙾𝚂𝙴 𝙰𝙻𝙻", callback_data="close_data"),
                 ]                
             ]
         ),
