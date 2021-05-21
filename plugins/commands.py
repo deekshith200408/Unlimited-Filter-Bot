@@ -191,9 +191,9 @@ async def bot_status(client,message):
         used = humanbytes(u)
         free = humanbytes(f)
 
-        disk = "\n**Disk Details**\n\n" \
-            f"> USED  :  {used} / {total}\n" \
-            f"> FREE  :  {free}\n\n"
+        disk = "\n**🤹𝐌𝐘 𝐃𝐈𝐒𝐊 𝐃𝐄𝐓𝐀𝐈𝐋𝐒⚡⚡**\n\n" \
+            f"🔘 𝚃𝙾𝚃𝙻𝙴 𝚄𝚂𝙴𝙳  :  {used} / {total}\n" \
+            f"🔘 𝙵𝚁𝙴𝙴 𝙾𝙵 :  {free}\n\n"
     except:
         disk = ""
 
@@ -248,7 +248,7 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🛡️ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs", url="https://t.me/UNI_MOVIES_BOX")],
+                    InlineKeyboardButton("🎖️JOIN OURS ALL CHANNELS🎖️", url="https://t.me/UNI_MOVIES_BOX")],
                  [   InlineKeyboardButton("🤓𝙰𝙱𝙾𝚄𝚃 𝙼𝙴", callback_data="about_data")
                 ],
                 [
