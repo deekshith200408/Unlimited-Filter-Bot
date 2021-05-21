@@ -28,10 +28,15 @@ async def cb_handler(client, query):
     if query.data == "start_data":
         await query.answer()
         keyboard = InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
-                ]
+            [[InlineKeyboardButton("⚡𝘾𝙍𝙀𝘼𝙏𝙀𝙍/𝙁𝙐𝙉𝘿𝙀𝙍 🤓", url="https://t.me/Deeks_04_8")],
+                    [
+                        InlineKeyboardButton("💡 𝙷𝙴𝙻𝙿", callback_data="help_data"),
+                        InlineKeyboardButton("🤹 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴", callback_data="about_data"),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            "🎖️ 𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐀𝐋𝐋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋𝐒 🎖️", url="https://t.me/UNI_MOVIES_BOX")
+                    ]
             ]
         )
 
@@ -47,12 +52,12 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🏅JOIN OUR ALL CAHNNELS🏅", url="https://t.me/UNI_MOVIES_BOX"),
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("🏅🄹🄾🄸🄽 🄾🅄🅁 🄲🄷🄰🄽🄴🄻🅂🏅", url="https://t.me/UNI_MOVIES_BOX"),
+                    InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃𝙴 𝙼𝙴", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("🛡️BOT Channel🛡️", url="https://t.me/UNI_MOVIES_BOX"),
-                    InlineKeyboardButton("👑Support Group👑", url="https://t.me/UM_Requests")
+                    InlineKeyboardButton("🛡️𝙲𝙷𝙰𝙽𝙽𝙴𝙻🛡️", url="https://t.me/UMR_KAN_MOVIES"),
+                    InlineKeyboardButton("👑𝙶𝚁𝚄𝙾𝙿👑", url="https://t.me/UM_Requests")
                 ]
             ]
         )
@@ -74,8 +79,8 @@ async def cb_handler(client, query):
 
 
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
+                    InlineKeyboardButton("🔙 𝙶𝙾 𝙱𝙰𝙲𝙺", callback_data="help_data"),
+                    InlineKeyboardButton("📴 𝙲𝙻𝙾𝚂𝙴 𝙰𝙻𝙻", callback_data="close_data"),
                 ]                
             ]
         )
@@ -103,7 +108,7 @@ async def cb_handler(client, query):
                     chat = await client.get_chat(grpid)
                     title = chat.title
                 except:
-                    await query.message.edit_text("Make sure I'm present in your group!!", quote=True)
+                    await query.message.edit_text("🤓Make sure I'm present in your group!!", quote=True)
                     return
             else:
                 await query.message.edit_text(
@@ -123,7 +128,7 @@ async def cb_handler(client, query):
         if (st.status == "creator") or (str(userid) in Config.AUTH_USERS):    
             await del_all(query.message, grp_id, title)
         else:
-            await query.answer("You need to be Group Owner or an Auth User to do that!",show_alert=True)
+            await query.answer("😠You need to be Group Owner or an Auth User to do that😅😎!",show_alert=True)
     
     elif query.data == "delallcancel":
         userid = query.from_user.id
@@ -168,7 +173,7 @@ async def cb_handler(client, query):
         ])
 
         await query.message.edit_text(
-            f"Group Name : **{title}**\nGroup ID : `{group_id}`",
+            f"🔰Group Name🔰: **{title}**\n♻️Group ID : `{group_id}`",
             reply_markup=keyboard,
             parse_mode="md"
         )
